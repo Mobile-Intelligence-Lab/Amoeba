@@ -1,0 +1,13 @@
+numpy
+torch
+gym
+matplotlib
+stable-baselines3
+requests
+requests-tor
+sb3-contrib
+scikit-learn
+scipy
+seaborn
+tensorboard
+tqdm

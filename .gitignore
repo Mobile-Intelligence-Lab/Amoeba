@@ -1,0 +1,4 @@
+.idea
+slurm-script
+*.npy
+__pycache__

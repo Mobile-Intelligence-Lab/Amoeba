@@ -1,0 +1,38 @@
+{
+  "inbounds": [
+    {
+      "port": "<v2ray-listen-port> (int)",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      },
+      "settings": {
+        "auth": "noauth"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "<domain-name>",
+            "port": 443,
+            "users": [
+              {
+                "id": "<unique-uuid>",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls"
+      }
+    }
+  ]
+}

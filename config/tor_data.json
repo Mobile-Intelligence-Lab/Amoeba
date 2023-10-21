@@ -1,0 +1,18 @@
+{
+    "stats_scaler": "data/preprocessed/tor_stat_scaler.npy",
+    "train_dataset": {
+        "X": "data/preprocessed/tor_clf_train_X.npy",
+        "y": "data/preprocessed/tor_clf_train_y.npy"
+    },
+    "agent_train_dataset": {
+        "X": "data/preprocessed/tor_agent_train_X.npy"
+    },
+    "val_dataset": {
+        "X": "data/preprocessed/tor_val_X.npy",
+        "y": "data/preprocessed/tor_val_y.npy"
+    },
+    "test_dataset": {
+        "X": "data/preprocessed/tor_test_X.npy",
+        "y": "data/preprocessed/tor_test_y.npy"
+    }
+}
