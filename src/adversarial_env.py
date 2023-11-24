@@ -257,7 +257,7 @@ class AdvEnv(gym.Env):
         [observed_state, generated_state, observation_p, observation_t]
         """
         # reset variables
-        self.mode = "train"
+        self.mode = mode
         self.pkt_counter = self.step_c = 0
         self.virtual_adv_flows = []
         self.reset_virtual_flow_states()
